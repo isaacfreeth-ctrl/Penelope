@@ -1,0 +1,46 @@
+"""
+Example test file for company name matching tool
+
+Use this to test the text input functionality
+"""
+
+# European tech companies
+Microsoft Corporation
+Google LLC
+Amazon.com, Inc.
+Meta Platforms, Inc.
+Apple Inc.
+
+# Companies with international variations
+Volkswagen AG
+BMW AG (Deutschland)
+Daimler AG
+Siemens AG
+Deutsche Bank AG
+
+# Companies with common suffixes
+Tesco PLC
+Unilever N.V.
+Royal Dutch Shell
+BP p.l.c.
+HSBC Holdings plc
+
+# Companies that might split across lines
+Société Générale S.A.
+BNP Paribas S.A.
+Crédit Agricole S.A.
+AXA S.A.
+
+# Asian companies
+Toyota Motor Corporation
+Samsung Electronics Co., Ltd.
+Sony Corporation
+Mitsubishi UFJ Financial Group
+Alibaba Group Holding Limited
+
+# Challenging names for fuzzy matching
+AT&T Inc.
+3M Company
+H&M Hennes & Mauritz AB
+E.ON SE
+A.P. Møller - Mærsk A/S
