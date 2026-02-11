@@ -10,6 +10,45 @@ Abundance Institute George W Bush Foundation Open Ran Policy Coalition
 
 This should be **3 separate entities**, not one.
 
+## Realistic Expectations
+
+**The tool will get you 70-90% of the way there automatically**, but:
+
+✓ **Works well for:**
+- Entities with clear organizational types (Institute, Foundation, Chamber of Commerce)
+- Comma-separated lists
+- Standard corporate suffixes (Inc., LLC, AG)
+
+⚠️ **Requires manual review for:**
+- Entities without type indicators (e.g., "Netchoice" mixed with "United Church")
+- Unusual acronyms or abbreviations
+- Ambiguous boundaries (is it "Dallas Regional Chamber" or just "Dallas Regional"?)
+- All-lowercase or inconsistent capitalization
+
+**Bottom line:** Always use the manual review step. The automatic detection saves time but isn't perfect.
+
+## Recommended Workflow
+
+### 1. **Upload PDF and Extract**
+Click "Extract Names from PDF" - don't skip to "Extract and Match"
+
+### 2. **Review the Editable Table**
+The tool shows you what it extracted. Look for:
+- Very long names (likely concatenated)
+- Orphaned words like "Foundation" or "Commerce"
+- Names that don't make sense
+
+### 3. **Manual Editing**
+- **Split rows**: Click a row, edit the name field, add a new row for the second entity
+- **Delete junk**: Remove page headers, footers, or garbage text
+- **Fix typos**: Correct obvious OCR errors
+
+### 4. **Click "Auto-detect More Splits" (Optional)**
+If you see obvious concatenations remaining, try this button for another pass
+
+### 5. **Match Names**
+Only after reviewing, click "✓ Looks Good - Match Names"
+
 ## Solutions in This Tool
 
 ### 1. **Automatic Detection** (Built into app.py)
