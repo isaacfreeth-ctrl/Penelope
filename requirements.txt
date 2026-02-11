@@ -1,0 +1,8 @@
+streamlit
+pandas
+pdfplumber
+requests
+fuzzywuzzy
+python-Levenshtein
+rapidfuzz
+openpyxl
